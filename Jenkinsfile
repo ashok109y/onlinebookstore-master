@@ -17,6 +17,7 @@ pipeline {
         stage('docker image') {
             steps {
                sh 'docker build -t ashokk .'
+                
             }
         }
     }
